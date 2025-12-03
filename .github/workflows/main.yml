@@ -1,0 +1,15 @@
+name : frist workflow
+on :
+  push:
+    branches:
+      -main
+
+jobs:
+  example-jops:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: print welcome
+        run : echo "hallow menna"
+      
